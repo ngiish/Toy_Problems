@@ -15,4 +15,7 @@ function calculateSpeed(Speed){
     }if(demeritPoints>12){
         console.log("License Suspended!");
     }
-}console.log(calculateSpeed(143));
+}
+//Take a random speed above the speed limit
+//Result will be the number of demerit points and status of licence if max allowable demerit points are exceeded
+console.log(calculateSpeed(143));
