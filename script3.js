@@ -1,6 +1,6 @@
 
 //Net Salary Calculator(Challenge 3)
-// Function to calculate Payee (Tax)
+// Function to calculate Payee 
 function calculatePayee(grossSalary) {
 
     if (grossSalary <= 24000) {
@@ -18,6 +18,12 @@ function calculatePayee(grossSalary) {
     }
   
   
+  
+  // Function to calculate NSSF Deductions
+  function calculateNSSF(grossSalary) {
+    return grossSalary *0.15;
+
+  }
   // Function to calculate NHIF Deductions
   function calculateNHIF(grossSalary) {
     if (grossSalary <= 5999) {
@@ -29,11 +35,6 @@ function calculatePayee(grossSalary) {
     }
   }
   
-  // Function to calculate NSSF Deductions
-  function calculateNSSF(grossSalary) {
-    return grossSalary *0.2;
-
-  }
   
   // Function to calculate Net Salary
   function calculateNetSalary(basicSalary, benefits) {
