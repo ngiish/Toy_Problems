@@ -4,6 +4,9 @@
 ****
 ## Project Description
 The project contains some of the solutions to week one Toy Problems which were given on Canvas.
+The first challenge involves the creation of a function that generates the grade of a student after the user inputs the student's marks.
+The second challenge involves the creation of a function that prints "Ok" when the speed is below the speed limit, but returns demerit points for every 5km/hr extra that the speed is greater than the speed limit.
+Te third challenge is a program that calculates the net salary of a worker and returns all the deductibles plus the net salary of the worker.
 
 
 
